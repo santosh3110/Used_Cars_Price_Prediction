@@ -31,5 +31,6 @@ After training and evaluating both models, the CatBoost Regressor turned out to 
 To deploy the model and collect user input data, a Streamlit app was built. The app allows users to input the features of a used car and predict its price. The app is connected to two databases:
 
 MongoDB: This is used to store the user input data and the corresponding predictions.
+
 Snowflake: This is a cloud-based data warehouse that is used to store the user input data and the predictions.
 The Streamlit app provides a simple and intuitive interface for users to input the features of a used car and get a predicted price. The app also stores the user input data and the predictions in the MongoDB and Snowflake databases for future reference and analysis.
